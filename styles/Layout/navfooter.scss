@@ -2,7 +2,7 @@
 @import "../modules/mixins";
 
 body{
-    font-family: sans-serif;
+    font-family: 'Montserrat' , sans-serif;
     font-size: 100%;
     height: 100vh;
     margin: auto;
@@ -61,6 +61,8 @@ nav ul{
         justify-content: center;
         align-items: center;
         border-radius: 15px;
+        box-shadow: 4px 0 30px 10px rgba($color: #000000, $alpha: 0.2);
+
         &:hover{
             text-decoration: underline 2px;
         }
@@ -83,8 +85,10 @@ nav ul{
     height: 100%;
     display: flex;
     justify-content: center;
+    
     img {
-        scale: 1.1;
+        scale: 1.4;
+        filter: blur(5px);
     }
 }
 
@@ -94,11 +98,11 @@ footer{
     width: 100%;
 
     .footercontent{
-        @include wrapper1440;
+        @include max1440;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        padding: 20px;
+        padding: 20px 0;
 
         #foot-2{
             text-align: center;

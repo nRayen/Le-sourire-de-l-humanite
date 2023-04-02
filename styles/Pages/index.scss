@@ -1,9 +1,36 @@
 @import "../modules/variables";
 @import "../modules/mixins";
 
+.content{
+        @include max1440;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
 
-h1 {
-    color: blue;
-    font-weight: bold;
-    text-decoration: underline;
+            h1 {
+                font-size: 55px;
+                margin-bottom: 20px;
+
+            }
+            
+            #logo2 img{
+                margin-bottom: 20px;
+            box-shadow: 4px 0 50px 20px rgba($color: $brun, $alpha: 0.4);
+
+            }
+
+            #slogan{
+                font-size: 35px;
+                font-style: italic;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            #intro{
+                font-size: 30px;
+                margin-bottom: 30px;
+                text-align: center;
+            }
 }
+

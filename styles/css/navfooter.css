@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 100%;
   height: 100vh;
   margin: auto;
@@ -53,6 +53,7 @@ header .don {
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+  box-shadow: 4px 0 30px 10px rgba(0, 0, 0, 0.2);
 }
 header .don:hover {
   -webkit-text-decoration: underline 2px;
@@ -78,7 +79,8 @@ header .don:hover {
   justify-content: center;
 }
 .background img {
-  scale: 1.1;
+  scale: 1.4;
+  filter: blur(5px);
 }
 
 /**************************************************Footer**************************************************/
@@ -92,7 +94,7 @@ footer .footercontent {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0;
 }
 footer .footercontent #foot-2 {
   text-align: center;
