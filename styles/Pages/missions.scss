@@ -1,0 +1,8 @@
+@import "../modules/variables";
+@import "../modules/mixins";
+
+.content {
+    @include max1440;
+    
+
+}
