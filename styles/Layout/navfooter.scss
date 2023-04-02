@@ -1,5 +1,5 @@
-@import "modules/_variables.scss";
-@import "modules/mixins";
+@import "../modules/variables";
+@import "../modules/mixins";
 
 body{
     font-family: sans-serif;
@@ -14,7 +14,7 @@ body{
 /**************************************************Header**************************************************/
 
 header{
-    background-color: #F5F5F5; 
+    background-color: #f5f5f5; 
     position: fixed;
     height: 100px;
     display: flex;
