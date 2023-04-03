@@ -1,0 +1,78 @@
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.content h1 {
+  color: #B98166;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.content .missions-container {
+  width: 100%;
+  padding: 50px;
+}
+.content .missions-container .card {
+  height: 400px;
+  width: 100%;
+  display: flex;
+}
+.content .missions-container .card:nth-child(1) {
+  margin-bottom: 30px;
+}
+.content .missions-container .card img {
+  height: 350px;
+  aspect-ratio: 1/1;
+  background-color: #B98166;
+  padding: 10px;
+  box-shadow: 5px 8px 30px 2px rgba(185, 129, 102, 0.6);
+  z-index: 12;
+}
+.content .missions-container .card .card-desc {
+  background-color: #F2F2F2;
+  box-shadow: 4px 0 50px 20px rgba(185, 129, 102, 0.4);
+  padding: 20px;
+  width: 80%;
+  height: 350px;
+  max-height: 350px;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.content .missions-container .card .card-desc .top {
+  height: 250px;
+}
+.content .missions-container .card .card-desc .top h2 {
+  font-size: 32px;
+  color: #B98166;
+  margin-bottom: 8px;
+}
+.content .missions-container .card .card-desc .top h2:hover {
+  text-decoration: underline;
+}
+.content .missions-container .card .card-desc .top p {
+  font-size: 20px;
+  text-overflow: hidden;
+  height: 200px;
+}
+.content .missions-container .card .card-desc .bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+}
+.content .missions-container .card .card-desc .bottom a {
+  font-size: 20px;
+  line-height: 20px;
+}
+.content .missions-container .card .card-desc .bottom a:hover, .content .missions-container .card .card-desc .bottom a:hover i {
+  color: #B98166;
+}
+.content .missions-container .card .card-desc .bottom a:hover i, .content .missions-container .card .card-desc .bottom a:hover i i {
+  transform: translateX(3px);
+  transition: 0.2s transform;
+}
