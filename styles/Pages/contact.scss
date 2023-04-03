@@ -1,6 +1,55 @@
 @import "../modules/variables";
 @import "../modules/mixins";
 
-h1 {
-    color: red;
+.content{
+        @include max1440;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        padding: 0 20px;
+        h1{
+            color: $brun;
+            font-size: 50px;
+            text-decoration: underline;
+            margin-bottom: 20px
+        }
+        address{
+            display: flex;
+            background-color: rgba($color: $brun, $alpha: 0.7);
+            margin-bottom: 30px;
+            width: 100%;
+            border-radius: 20px;
+            overflow: hidden;
+            font-size: 29px ;            
+            box-shadow: 4px 0 50px 20px rgba($color: $brun, $alpha: 0.4);
+            img{
+                width: 40%;
+                object-fit: cover;
+            }
+            .contact-card{
+                padding:50px 35px;
+            
+        
+            
+                li{
+                    display: flex;
+                    padding: 55px 0;
+                    font-size: 35px;
+                }
+                i{
+                    margin-right: 10px;
+                }
+                a{
+                    overflow-wrap: anywhere;
+                }
+                a i{
+                    scale: 1.7;
+                    margin: 0 25px;
+                }
+                li em{
+                    font-style: italic;
+                }
+            }
+        }
 }

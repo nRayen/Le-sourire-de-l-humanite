@@ -1,3 +1,51 @@
-h1 {
-  color: red;
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.content h1 {
+  color: #B98166;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.content address {
+  display: flex;
+  background-color: rgba(185, 129, 102, 0.7);
+  margin-bottom: 30px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: 29px;
+  box-shadow: 4px 0 50px 20px rgba(185, 129, 102, 0.4);
+}
+.content address img {
+  width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content address .contact-card {
+  padding: 50px 35px;
+}
+.content address .contact-card li {
+  display: flex;
+  padding: 55px 0;
+  font-size: 35px;
+}
+.content address .contact-card i {
+  margin-right: 10px;
+}
+.content address .contact-card a {
+  overflow-wrap: anywhere;
+}
+.content address .contact-card a i {
+  scale: 1.7;
+  margin: 0 25px;
+}
+.content address .contact-card li em {
+  font-style: italic;
 }
