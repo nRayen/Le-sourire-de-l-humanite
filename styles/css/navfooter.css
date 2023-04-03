@@ -46,7 +46,7 @@ header .don {
   height: 100%;
   background-color: #F4D3B4;
   border: none;
-  font-size: 40px;
+  font-size: 38px;
   text-decoration: none;
   color: black;
   display: flex;
@@ -54,6 +54,7 @@ header .don {
   align-items: center;
   border-radius: 15px;
   box-shadow: 4px 0 30px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
 }
 header .don:hover {
   -webkit-text-decoration: underline 2px;
