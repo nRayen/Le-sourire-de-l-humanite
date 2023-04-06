@@ -31,6 +31,9 @@
 .content address .contact-card {
   padding: 50px 35px;
 }
+.content address .contact-card > p {
+  font-size: 36px;
+}
 .content address .contact-card li {
   display: flex;
   padding: 55px 0;
@@ -48,4 +51,20 @@
 }
 .content address .contact-card li em {
   font-style: italic;
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .content h1 {
+    font-size: 45px;
+  }
+  .content address .contact-card {
+    padding: 30px 20px;
+  }
+  .content address .contact-card > p {
+    font-size: 25px;
+  }
+  .content address .contact-card li {
+    font-size: 21px;
+    padding: 25px 0;
+  }
 }
