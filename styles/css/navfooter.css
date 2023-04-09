@@ -6,6 +6,9 @@ body {
   margin: auto;
   background-color: #F2F2F2;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /**************************************************Header**************************************************/
@@ -20,6 +23,7 @@ header {
   margin: 0 auto;
   justify-content: space-around;
   box-shadow: 4px 0 50px 2px rgba(0, 0, 0, 0.2);
+  padding: 0 20px;
 }
 header #logo img {
   height: 80px;
@@ -30,8 +34,9 @@ nav ul {
   display: flex;
 }
 nav ul li {
-  font-size: 28px;
+  font-size: 26px;
   padding: 20px;
+  text-align: center;
 }
 nav ul a.active {
   color: #B98166;
@@ -47,7 +52,7 @@ header .don {
   height: 100%;
   background-color: #F4D3B4;
   border: none;
-  font-size: 38px;
+  font-size: 37px;
   text-decoration: none;
   color: black;
   display: flex;
@@ -55,7 +60,6 @@ header .don {
   align-items: center;
   border-radius: 15px;
   box-shadow: 4px 0 30px 10px rgba(0, 0, 0, 0.2);
-  margin-right: 20px;
 }
 header .don:hover {
   -webkit-text-decoration: underline 2px;
@@ -69,6 +73,7 @@ header .don:hover {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  box-shadow: 4px 0 30px 10px rgba(0, 0, 0, 0.2);
 }
 
 .background {
@@ -96,7 +101,7 @@ footer .footercontent {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px;
 }
 footer .footercontent #foot-2 {
   text-align: center;
@@ -112,4 +117,22 @@ footer .footercontent #foot-3 i {
   cursor: pointer;
   scale: 1.7;
   padding: 10px;
+}
+
+/**************************************************responsive tablette**************************************************/
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  header {
+    padding: 0 10px;
+  }
+  header nav ul li {
+    font-size: 18px;
+    padding: 10px;
+  }
+  header .don {
+    width: 200px;
+    font-size: 26px;
+  }
+  #présentation img {
+    height: 200px;
+  }
 }

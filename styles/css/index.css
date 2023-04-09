@@ -24,4 +24,23 @@
   font-size: 30px;
   margin-bottom: 30px;
   text-align: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .content h1 {
+    font-size: 50px;
+  }
+  .content #logo2 {
+    width: 60%;
+  }
+  .content #logo2 img {
+    width: 100%;
+  }
+  .content #slogan {
+    font-size: 30px;
+  }
+  .content #intro {
+    font-size: 25px;
+  }
 }

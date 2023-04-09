@@ -15,7 +15,7 @@
             }
             
             #logo2 img{
-                margin-bottom: 20px;
+            margin-bottom: 20px;
             box-shadow: 4px 0 50px 20px rgba($color: $brun, $alpha: 0.4);
 
             }
@@ -31,6 +31,30 @@
                 font-size: 30px;
                 margin-bottom: 30px;
                 text-align: center;
+                padding: 20px;
             }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px){
+    .content{
+        h1 {
+            font-size: 50px;
+        }
+
+        #logo2 {
+            width: 60%;
+            img {
+                width: 100%;
+            }
+        }
+
+        #slogan {
+            font-size: 30px;
+        }
+        
+        #intro {
+            font-size: 25px;
+        }
+    }
 }
 
